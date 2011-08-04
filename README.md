@@ -27,7 +27,7 @@ The premise of `roxygen2` is simple: describe your functions in comments next to
       nc
     }
 
-When you `roxygenise` your package these comments will be automatically transformed to the Rd file you need to pass `R CMD check`:
+When you `roxygenize` your package these comments will be automatically transformed to the Rd file you need to pass `R CMD check`:
 
     \name{str_length}
     \alias{str_length}
@@ -69,7 +69,7 @@ By default, `roxygen2` will create files in the package `man` directory, althoug
 * `rd_roclet`: produces Rd files by inspecting both function definitions and
   roxygen2 comments in the source code.
 
-By default, `roxygenise` will run all three, but you can choose which ones to run using the `roclet` parameter. It's also possible to write your own roclets - more on this in the future.
+By default, `roxygenize` will run all three, but you can choose which ones to run using the `roclet` parameter. It's also possible to write your own roclets - more on this in the future.
 
 # Thanks
 
